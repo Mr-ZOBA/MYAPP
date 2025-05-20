@@ -22,7 +22,7 @@ html_tempi = """
 
 def Pwc_Services():
     stc.html(html_tempi)
-    imgA = "img\PB5.png"
+    imgA = "img/PB5.png"
     #img = open(imgA)
     st.image(imgA, use_container_width=True)
     #st.info("🌍 Stage Virtuel avec L'organisation Americaine Pwc")
@@ -65,15 +65,15 @@ def Pwc_Services():
         """
         )
     
-    Menu = "img\Menu.png"
+    Menu = "img/Menu.png"
     st.image(Menu, use_container_width=True)
-    Churn = "img\Churn.png"
+    Churn = "img/Churn.png"
     st.image(Churn, use_container_width=True)
-    Risk = "img\Risk.png"
+    Risk = "img/Risk.png"
     st.image(Risk, use_container_width=True)
-    Ser = "img\Serv.png"
+    Ser = "img/Serv.png"
     st.image(Ser, use_container_width=True)
-    Result = "img\Result.png"
+    Result = "img/Result.png"
     st.image(Result, use_container_width=True)
 
     st.info("Pour acceder au fichier PowerBI, veullez cliquer sur ce lien")
